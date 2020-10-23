@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Shio Tonkotsu",
+        "description":"Salt based, pork belly chashu, seasoned egg, beansprouts, green onion red ginger.",
+        "photo":"shio_tonkotsu",
+        "category":"ramen"
+    },
+    {
+        "name": "Shoyu Tonkotsu",
+        "description":"Soy sauce based, port belly chashu, seaweed, seasoned egg, beansprouts, green onion.",
+        "photo":"shoyu_tonkotsu",
+        "category":"ramen"
+    },
+    {
+        "name": "Miso Tonkotsu",
+        "description":"Miso based, pork belly chashu, seasoned egg, beansprouts, green onion, sweet corn.",
+        "photo":"miso_tonkotsu",
+        "category":"ramen"
+    },
+    {
+        "name": "Spicy Miso Tonkotsu",
+        "description":"Spicy miso based, marinated chopped chashu, seasoned egg, beansprouts, green onion, sweet corn.",
+        "photo":"spicy_miso_tonkotsu",
+        "category":"ramen"
+    },
+    {
+        "name": "Arashi Ramen",
+        "description":"Salt based, 3 port belly chashu, seaweed, seasoned egg, beansprouts, green onion.",
+        "photo":"arashi_ramen",
+        "category":"ramen"
+    },
+    {
+        "name": "Black Garlic Ramen",
+        "description":"Salt based, port belly chashu, seasoned egg, beansprouts, green onion, fried onion, black garlic oil.",
+        "photo":"black_garlic_ramen",
+        "category":"ramen"
+    },
+    {
+        "name": "Tantan Men",
+        "description":"Sesame paste, seasoned ground pork, green onion, chili oil.",
+        "photo":"tantan_men",
+        "category":"ramen"
+    },
+    {
+        "name": "Spicy Tantan Men",
+        "description":"Spicy sesame paste, seasoned ground pork, green onion, chili oil, red pepper.",
+        "photo":"spicy_tantan_men",
+        "category":"ramen"
+    },
+    {
+        "name": "Cold Sweet Soy Ramen",
+        "description":"Sweet soy sauce, chopped chashu, seasoned egg, tomato, vege, sesame seed",
+        "photo":"cold_sweet_soy_ramen",
+        "category":"ramen"
+    },
+    {
+        "name": "Creamy Veggie Ramen",
+        "description":"Vegetable broth, tofu 3pc, beansprouts, green onion, sweet corn, bamboo shoots, red ginger, and garlic oil.",
+        "photo":"creamy_veggie_ramen",
+        "category":"ramen"
+    },
+    {
+        "name": "Karaage",
+        "description":"Japanese style fried chicken.",
+        "photo":"karaage",
+        "category":"appetizer"
+    },
+    {
+        "name": "Honey Garlic Karaage",
+        "description":"Japanese style fried chicken with our special honey garlic sauce.",
+        "photo":"honey_garlic_karaage",
+        "category":"appetizer"
+    },
+    {
+        "name": "Gyoza",
+        "description":"Pan-fried pork & chicken potstickers. (6 pcs)",
+        "photo":"gyoza",
+        "category":"appetizer"
+    },
+    {
+        "name": "Tokoyaki",
+        "description":"Octopus ball with seaweed, maya, okonomi sauce, and bonito flakes. (6 pcs)",
+        "photo":"none",
+        "category":"appetizer"
+    },
+    {
+        "name": "House Salad",
+        "description":"Mixed vegetable with house blend special dressing.",
+        "photo":"none",
+        "category":"appetizer"
+    },
+    {
+        "name": "Edamame",
+        "description":"Boiled Soybeans with salt",
+        "photo":"none",
+        "category":"appetizer"
+    },
+    {
+        "name": "Chashu Bowl",
+        "description":"Rice with marinated chopped chashu, egg, green onion, seaweed and red ginger. Small/Large",
+        "photo":"chashu_bowl",
+        "category":"rice_bowl"
+    },
+    {
+        "name": "Honey Garlic Karaage Bowl",
+        "description":"Rice with honey garlic fried chicken, mayo and mixed vegetables. Small/Large",
+        "photo":"honey_garlic_karaage_bowl",
+        "category":"rice_bowl"
+    },
+    {
+        "name": "Curry Bowl",
+        "description":"Japanese style curry with rice, ground chicken and red radish. Small/Large",
+        "photo":"none",
+        "category":"rice_bowl"
+    },
+    {
+        "name": "Soboro Bowl",
+        "description":"Rice with sweet ground pork, egg, green onion. Small/Large",
+        "photo":"none",
+        "category":"rice_bowl"
+    },
+    {
+        "name": "3pc gyoza",
+        "description":"",
+        "photo":"gyoza",
+        "category":"combo"
+    },
+    {
+        "name": "1/2 sz Karaage",
+        "description":"",
+        "photo":"Karaage",
+        "category":"combo"
+    },
+    {
+        "name": "1/2 sz Honey Garlic Karaage",
+        "description":"",
+        "photo":"honey_garlic_karaage",
+        "category":"combo"
+    },
+    {
+        "name": "3pc Takoyaki",
+        "description":"none",
+        "photo":"none",
+        "category":"combo"
+    },
+]

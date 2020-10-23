@@ -1,0 +1,30 @@
+.nav{
+    background-color: #60042E  !important  ;
+    padding: 2em .5em;
+    color: white !important;
+
+}
+#navbarList{
+    background-color: #60042E;
+    font-size: 1.2em;
+    animation: fade .5s linear forwards;
+    color: white !important;
+}
+.navbar-burger{
+    color: white !important;
+}
+.link{
+    color:white;
+}
+.link:hover{
+    color: white;
+    padding-bottom: 8.6px;
+}
+.logo{
+    float: left;
+    position: relative;
+    left: -1em;
+    top: -.6em;
+    color:white !important;
+    max-width: 150px;
+}
