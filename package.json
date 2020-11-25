@@ -1,0 +1,36 @@
+{
+  "name": "arashiramen",
+  "version": "1.0.0",
+  "description": "Developing the redesign for Arashi Ramen in Tukwila. Development done by me, design done by Melissa Tran",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoudeau2012/arashiramen.git"
+  },
+  "author": "Nick Goudeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngoudeau2012/arashiramen/issues"
+  },
+  "homepage": "https://github.com/ngoudeau2012/arashiramen#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

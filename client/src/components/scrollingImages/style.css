@@ -1,0 +1,66 @@
+/* Image and Caption */
+.each-slide > div {
+    /* display: flex;
+    align-items: flex-start;
+    flex: 1; */
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+
+.slideImg{
+  width: 100%;
+}
+
+.caption{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Section and Title */
+.section{
+  padding: 20px 2em 22px 2em;
+}
+  .title{
+    color: #B50936;
+    font-size: 20px;
+}
+.imgTitle{
+  padding: 0em .8em;
+}
+  
+.react-slideshow-container .default-nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: none;
+}
+  .section{
+      overflow: hidden;
+  }
+  @media only screen and (min-width: 1024px) {
+    .each-slide > div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-size: cover;
+        height: 900px;
+        width: 100%;
+      }
+  }
+
+  .indicator {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px #666 solid */
+    background-color: #B50936;
+  }
+  
+  .indicator.active {
+    color:#B50936;
+    background-color: #B50936;
+  }

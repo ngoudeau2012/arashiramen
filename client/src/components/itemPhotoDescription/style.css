@@ -1,0 +1,21 @@
+.employeeCard{
+    text-align: center;
+}
+.is-rounded{
+    height: 69px !important;
+    width: 69px !important;
+    margin: auto;
+}
+.image{
+    margin-bottom: 5px;
+}
+.name{
+    font-weight: 500;
+    line-height: 14.08px;
+    font-size: 12px;   
+}
+.description{
+    font-weight: 400;
+    line-height: 14.08px;
+    font-size: 12px;
+}
