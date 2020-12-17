@@ -1,9 +1,8 @@
 import React, {useState} from "react";
 import './style.css'
 
-function ItemPhotoDescription({item,colSize}) {
+function ItemDescription({item,colSize}) {
 
-  // const [colState, setColState] = useState("")
   console.log(colSize)
   let colState = ""
 
@@ -12,16 +11,13 @@ function ItemPhotoDescription({item,colSize}) {
     colState = "column is-one-third"
   }else if(colSize ==="2"){
     colState = "column is-half"
+  } else if (colSize === "1"){
+      colState = "column is-three-fifths is-offset-one-fifth"
   }
+
   return (
     <div className={colState}>
         <div className="employeeCard" >
-      <figure className="image">
-        <img
-          className="is-rounded"
-          src= {item.photo}
-        />
-      </figure>
       <p className ="name">{item.name}</p>
       <p className ="description">{item.description}</p>
     </div>
@@ -29,4 +25,4 @@ function ItemPhotoDescription({item,colSize}) {
   );
 }
 
-export default ItemPhotoDescription;
+export default ItemDescription;

@@ -1,0 +1,17 @@
+import ArashiRamen from "./arashi_ramen.jpg"
+import BlackGarlic from "./black_garlic_ramen.jpg"
+import ChasuBowl from "./chashu_bowl.jpg"
+import ColdSweetSoy from "./cold_sweet_soy_ramen.jpg"
+import CreamyVeggie from "./creamy-veggie_ramen.jpg"
+import Gyoza from "./gyoza.jpg"
+import HoneyGarlicKaraageBowl from "./honey_garlic_karaage_bowl.jpg"
+import HoneyGarlicKaraage from "./honey_garlic_karaage.jpg"
+import Karaage from "./karaage.jpg"
+import Miso from "./miso_tonkotsu.jpg"
+import Shio from "./shio_tonkotsu.jpg"
+import Shoyu from "./shoyu_tonkotsu.jpg"
+import SpicyMiso from "./spicy_miso_tonkotsu.jpg"
+import SpicyTanTan from "./spicy_tantan_men.jpg"
+import TanTan from "./tantan_men.jpg"
+
+export default {ArashiRamen, BlackGarlic, ChasuBowl, ColdSweetSoy, CreamyVeggie, Gyoza, HoneyGarlicKaraage, HoneyGarlicKaraageBowl,Karaage,Miso,Shio,Shoyu,SpicyMiso,SpicyTanTan,TanTan}

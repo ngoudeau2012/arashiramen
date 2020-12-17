@@ -13,7 +13,7 @@ import Employees from "../../assets/employees.json";
 import Headshot1 from "../../assets/foodPhotos/headshot1.png";
 import Headshot2 from "../../assets/foodPhotos/headshot2.png";
 import ListCard from "../../components/listCard";
-import Employee from "../../components/itemPhotoDescription";
+import ItemPhotoDescription from "../../components/itemPhotoDescription";
 import "./style.css";
 
 let aboutUs = {};
@@ -53,7 +53,7 @@ function About() {
           </div>
           <div className="columns is-multiline is-mobile test">
             {employeeArr.map((employee) => (
-              <Employee item={employee} colSize="3"/>
+              <ItemPhotoDescription item={employee} colSize="3"/>
             ))}
           </div>
         </ListCard>

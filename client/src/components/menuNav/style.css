@@ -1,0 +1,20 @@
+.menuNav{
+    margin: 24px 18.5px !important;
+}
+
+.category{
+    font-size: 10px;
+    line-height: 11.73px;
+}
+
+.selected{
+    font-family: 'Roboto', sans-serif;
+}
+.selected:after{
+    content: "";
+    height: 2px;
+    display: block;
+    color: #60042E ;
+    width: 100%;
+    background: #60042E;
+}

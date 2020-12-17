@@ -80,19 +80,19 @@
     {
         "name": "Tokoyaki",
         "description":"Octopus ball with seaweed, maya, okonomi sauce, and bonito flakes. (6 pcs)",
-        "photo":"none",
+        "photo":"tokoyaki",
         "category":"appetizer"
     },
     {
         "name": "House Salad",
         "description":"Mixed vegetable with house blend special dressing.",
-        "photo":"none",
+        "photo":"house_salad",
         "category":"appetizer"
     },
     {
         "name": "Edamame",
         "description":"Boiled Soybeans with salt",
-        "photo":"none",
+        "photo":"edamame",
         "category":"appetizer"
     },
     {
@@ -110,37 +110,37 @@
     {
         "name": "Curry Bowl",
         "description":"Japanese style curry with rice, ground chicken and red radish. Small/Large",
-        "photo":"none",
+        "photo":"curry_bowl",
         "category":"rice_bowl"
     },
     {
         "name": "Soboro Bowl",
         "description":"Rice with sweet ground pork, egg, green onion. Small/Large",
-        "photo":"none",
+        "photo":"soboro_bowl",
         "category":"rice_bowl"
     },
     {
         "name": "3pc gyoza",
         "description":"",
-        "photo":"gyoza",
+        "photo":"3pcGyoza",
         "category":"combo"
     },
     {
         "name": "1/2 sz Karaage",
         "description":"",
-        "photo":"Karaage",
+        "photo":"karaageCombo",
         "category":"combo"
     },
     {
         "name": "1/2 sz Honey Garlic Karaage",
         "description":"",
-        "photo":"honey_garlic_karaage",
+        "photo":"honeyKaraageCombo",
         "category":"combo"
     },
     {
         "name": "3pc Takoyaki",
         "description":"none",
-        "photo":"none",
+        "photo":"tokoyakiCombo",
         "category":"combo"
-    },
+    }
 ]
